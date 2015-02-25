@@ -1,0 +1,7 @@
+.rating__image.rating__item--rated,
+.rating__image.rating__item--rated + .rating__image,
+.rating__image.rating__item--rated + .rating__image + .rating__image,
+.rating__image.rating__item--rated + .rating__image + .rating__image + .rating__image,
+.rating__image.rating__item--rated + .rating__image + .rating__image + .rating__image + .rating__image {
+    background-position: 0 0;
+}

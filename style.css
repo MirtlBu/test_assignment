@@ -122,7 +122,6 @@ body, html {
     position: absolute;
     top: 0px;
     left: 0px;
-    /*opacity: 0;*/
     visibility: hidden;
 }
 
@@ -136,11 +135,7 @@ body, html {
    float: right;
 }
 
-.rating__image.rating__item--rated,
-.rating__image.rating__item--rated + .rating__image,
-.rating__image.rating__item--rated + .rating__image + .rating__image,
-.rating__image.rating__item--rated + .rating__image + .rating__image + .rating__image,
-.rating__image.rating__item--rated + .rating__image + .rating__image + .rating__image + .rating__image {
+.rating__image.rating__item--rated, .rating__image.rating__item--rated ~ .rating__image{
     background-position: 0 0;
 }
 
