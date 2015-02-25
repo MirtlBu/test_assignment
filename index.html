@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta content="text/html; charset=utf-8; ru" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Form</title>
+</head>
+<body>
+    <form class="form" action="" method="POST">
+        <input type="text" class="form__name" name="name" placeholder="Введите ваше имя" required>
+        <input type="email" class="form__email" name="email" placeholder="Введите ваш E-mail" required>
+        <div class="rating">
+            <span class="rating__title">Оцените ваше настроение</span>
+            <span class="rating__stars">
+                <input type="radio" class="rating__item" name="rating" id="star5" value="5"><label class="rating__image" for="star5"></label>
+                <input type="radio" class="rating__item" name="rating" id="star4" value="4"><label class="rating__image" for="star4"></label>
+                <input type="radio" class="rating__item" name="rating" id="star3" value="3"><label class="rating__image" for="star3"></label>
+                <input type="radio" class="rating__item" name="rating" id="star2" value="2"><label class="rating__image" for="star2"></label>
+                <input type="radio" class="rating__item" name="rating" id="star1" value="1"><label class="rating__image" for="star1"></label>
+            </span>
+        </div>
+        <textarea type="text" class="form__comment" name="comment" placeholder="Введите ваш комментарий" required></textarea>
+        <button type="submit" class="form__submit">Отправить</button>
+    </form>
+</body>
+</html>
